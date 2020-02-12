@@ -1,0 +1,30 @@
+/*@media (prefers-reduced-motion: no-preference) {*/
+  /*.Yline {*/
+    /*animation: App-logo-spin infinite 20s linear;*/
+  /*}*/
+/*}*/
+@media (prefers-reduced-motion: no-preference) {
+  .Yline {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes Open{
+    from {
+        transform-origin: 50% -200%; 
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform-origin: 0% 0%; 
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
