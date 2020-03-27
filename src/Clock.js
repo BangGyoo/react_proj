@@ -6,7 +6,6 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = {
     root: {
         'display':'absolute',
-        'margin-top':'40vh',
         'text-align':'center',
     },
     font: {
@@ -27,7 +26,7 @@ class Clock extends Component {
         const {date} = this.state;
         const { classes } = this.props;
         return(
-            <Typography className={ classes.root }component='div'>
+            <Typography className={ classes.root } component='div'>
                 <Box className={classes.font}>{date.getDate()}Day, {date.getMonth()}Month</Box>
                 <Box className={classes.font}>{date.getHours()}:{date.getMinutes()}:{date.getSeconds()}</Box>
             </Typography>

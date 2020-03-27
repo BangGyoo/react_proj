@@ -4,7 +4,6 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 const styles = {
      root: {
-         "margin-top":"20vh",
          "background-color":"RGBA(0,0,0,0.6)",
          "border-top":"1px solid skyblue",
      },

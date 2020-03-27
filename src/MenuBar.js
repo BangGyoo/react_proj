@@ -6,6 +6,10 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import BackspaceIcon from '@material-ui/icons/KeyboardBackspace';
+import { Link } from 'react-router-dom';
+import HouseIcon from '@material-ui/icons/House';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -24,10 +28,10 @@ export default function MenuBar(props) {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" width='100vw'>
+      <AppBar position="fixed" width='100vw' style={{'background-color':'black'}}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
+             <Link to={`/Main`}> <BackspaceIcon/> </Link>
           </IconButton>
           <Typography variant="h6" className={classes.title}>
             {props.title}

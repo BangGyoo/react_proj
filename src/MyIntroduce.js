@@ -8,7 +8,6 @@ const styles = {
          "left":"10vw",
          "width":"80vw",
          "height":"80vh",
-         "margin-top":"15vh",
          "background-color":"RGBA(172,62,222,0.42)",
          "border-top":"1px solid gray",
          "flex-direction":"row",
