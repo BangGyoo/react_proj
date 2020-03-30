@@ -27,7 +27,7 @@ class Clock extends Component {
         const { classes } = this.props;
         return(
             <Typography className={ classes.root } component='div'>
-                <Box className={classes.font}>{date.getDate()}Day, {date.getMonth()}Month</Box>
+                <Box className={classes.font}>{date.getDate()}Day, {date.getMonth()+1}Month</Box>
                 <Box className={classes.font}>{date.getHours()}:{date.getMinutes()}:{date.getSeconds()}</Box>
             </Typography>
         );

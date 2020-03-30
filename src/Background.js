@@ -130,7 +130,7 @@ class Page extends Shape {
     }
     createSlide3 = () => {
         const timeline = new mojs.Timeline({speed:0.5,});
-        const lastAction = this.createHeart().tune({repeat:100,delay:300,duration:3000,scale:10.0,left:'80%',top:'80%'});
+        const lastAction = this.createHeart().tune({repeat:1,delay:300,duration:3000,scale:10.0,left:'80%',top:'80%'});
         timeline.append(lastAction);
         return [timeline,lastAction];
     }

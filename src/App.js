@@ -31,6 +31,7 @@ class App extends Component {
                                         <Clock/>
                                     </header>
                                 </div>
+                                
                                 <div className='section'>
                                     <Bucket/>
                                 </div>

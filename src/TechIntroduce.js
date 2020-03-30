@@ -21,7 +21,11 @@ const styles = {
         'color':'white',
         'padding-bottom':'20px',
         'border-bottom':'1px solid skyblue',
-    }
+    },
+    gridList: {
+        'max-width':'100%',
+        'height' : '500px'
+    },
 };
 
 

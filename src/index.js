@@ -6,7 +6,7 @@ import TechIntroduce from './TechIntroduce';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Route path='/main' component={Main}/>
+    <Route path='/Main' component={Main}/>
     <Route path='/TechIntroduce/:name' component={TechIntroduce}/>
   </BrowserRouter>
     ,

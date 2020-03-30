@@ -24,10 +24,12 @@ const useStyles = makeStyles(theme => ({
   },
   gridList: {
     margin:'1vw !important',
-    position: 'relative',
+    //position: 'relative',
     //'padding-top':'10%',
     flexWrap: 'nowrap',
     transform: 'translateZ(0)',
+    height: '500px',
+    'max-width': '100%',
     
     '&::-webkit-scrollbar-thumb': {
         backgroundColor: 'rgba(255,255,255,.1)',
@@ -67,7 +69,7 @@ export default function SingleLineGridList(props) {
 
   return (
     <div className={classes.root}>
-      <GridList className={classes.gridList} cols={2.5}>
+      <GridList cellHeight={500} className={classes.gridList} cols={2.5}>
         {props.tileData.map(tile => (
           <GridListTile key={tile.img}>
             <a href={tile.link} target='_blank'><img src={tile.img} alt={tile.title} height='500px' /></a>

@@ -47,6 +47,9 @@ export const state = {
     "linux":"vim, makefile, docker(-compose)등을 이용하여 프로젝트를 작성하였습니다. 현재 개인 home server로 ubuntu를 사용하고 있으며, raspbian을 이용한 smart window project를 진행한 경험이 있습니다. ",
     "git":"현재 github에 학습자료등을 관리하고 있습니다. 참고해주시면 감사하겠습니다."
 }
+
+const MASTER_PATH = 'https://github.com/BangGyoo/Portfolio_Gyoo/blob/master/';
+
 export const tileData = {
     "technology stack" : [
         {
@@ -165,20 +168,20 @@ export const tileData = {
     ],
     "c&c++": [
         {
-             img: 'https://github.com/NVIDIA/FastPhotoStyle/blob/master/teaser.png?raw=true',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/blob/master/language/c&c++/1.png?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'https://github.com/NVIDIA/FastPhotoStyle',
+             link: MASTER_PATH + '/language/c%26c%2B%2B/',
         },
         { 
-             img: 'https://github.com/NVIDIA/FastPhotoStyle/blob/master/teaser.png?raw=true',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/c%26c%2B%2B/2.png?raw=true',
              //img: '/my_home_page_source/background/b2.jpg',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: 'https://github.com/NVIDIA/FastPhotoStyle/blob/master/teaser.png?raw=true',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/c%26c%2B%2B/3.jpg?raw=true',
              //img: '/my_home_page_source/background/b3.jpg',
              title: 'b3',
              author: 'author'
@@ -186,114 +189,114 @@ export const tileData = {
     ],
     "python": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/python/1.png?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/python/2.gif?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/python/3.gif?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "etc..": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/etc/1.gif?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/etc/3.png?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/etc/6.bmp?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "data structure": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/data%20structure/data%20structure/2.jpg?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/data%20structure/data%20structure/1.png?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/data%20structure/data%20structure/3.png?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "algorithm": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/data%20structure/algorithm/1.bmp?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/data%20structure/algorithm/2.png?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/data%20structure/algorithm/3.bmp?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "discrete mathematics": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: '',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: '',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: '',
              title: 'b3',
              author: 'author'
         }
     ],
     "linear algebra": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: '',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: '',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: '',
              title: 'b3',
              author: 'author'
         }
@@ -301,174 +304,169 @@ export const tileData = {
 
     "logic circuit": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: '',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: '',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: '',
              title: 'b3',
              author: 'author'
         }
     ],
     "computer architecture": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: '',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: '',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: '',
              title: 'b3',
              author: 'author'
         }
     ],
     "operating system": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: '',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: '',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: '',
              title: 'b3',
              author: 'author'
         }
     ],
     "open gl": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/graphics/open%20gl/3.gif?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/graphics/open%20gl/4.jpg?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/graphics/open%20gl/6.gif?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "image processing": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/graphics/image%20processing/1.png?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/graphics/image%20processing/2.gif?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/python/2.gif?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "lab research": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/graphics/lab%20research/5.png?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/graphics/lab%20research/3.png?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/graphics/lab%20research/4.png?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "windows": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/c&c++/2.png?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/environment/windows/2.png?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/environment/windows/3.png?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "linux": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/environment/linux/1.png?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/language/python/3.gif?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
         {
-             img: '/my_home_page_source/background/b3.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/environment/linux/3.png?raw=true',
              title: 'b3',
              author: 'author'
         }
     ],
     "git": [
         {
-             img: '/my_home_page_source/background/b1.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/environment/git/1.png?raw=true',
              title: 'b1',
              author: 'author',
-             link: 'http://www.naver.com',
+             link: '',
         },
         { 
-             img: '/my_home_page_source/background/b2.jpg',
+             img: 'https://github.com/BangGyoo/Portfolio_Gyoo/raw/master/environment/git/2.png?raw=true',
              title: 'b2',
              author: 'author',
-             link: './txtFiles/c.md',
+             link: '',
         },
-        {
-             img: '/my_home_page_source/background/b3.jpg',
-             title: 'b3',
-             author: 'author'
-        }
     ],
 
 };
